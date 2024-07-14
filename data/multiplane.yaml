@@ -1,0 +1,9 @@
+train: ./axial_t1wce_2_class/images/train
+val: ./axial_t1wce_2_class/images/test
+# train: ./coronal_t1wce_2_class/images/train
+# val: ./coronal_t1wce_2_class/images/test
+# train: ./sagittal_t1wce_2_class/images/train
+# val: ./sagittal_t1wce_2_class/images/test
+
+nc: 2
+names: ['negative','positive']
