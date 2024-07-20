@@ -2,7 +2,7 @@
 This is the source code for the paper titled "PK-YOLO: Pretrained Knowledge Guided YOLO for Brain Tumor Detection in Multiplane MRI Slices" submitted to WACV 2025 (Paper ID: 466). This repository will be private before final decisions released to authors, i.e., Oct 28th, 2024.
 
 ## Errata
-'Mamaba YOLO' shoule be Mamba YOLO.
+'Mamaba YOLO', which is a typo, shoule be Mamba YOLO.
 
 ## Model
 
