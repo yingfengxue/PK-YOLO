@@ -6,7 +6,7 @@ This is the source code for the paper titled "PK-YOLO: Pretrained Knowledge Guid
 ##### Installation
 Install requirements.txt in a Python>=3.8.0 environment, including PyTorch>=1.7.0.
 ```
-pip install -r requirements.txt  # install
+pip install -r requirements.txt
 ```
 
 ## License
