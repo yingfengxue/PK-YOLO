@@ -9,11 +9,14 @@ Install requirements.txt in a Python>=3.8.0 environment, including PyTorch>=1.7.
 pip install -r requirements.txt
 ```
 
+## Referencing Guide
+Please cite our paper if you use code from this repository. Here is a guide to referencing this work in various styles for formatting your references:
+
 ## License
 PK-YOLO is released under the GNU General Public License v3.0.
 
 ## Copyright Notice
-Many utility codes of our project base on the codes of [YOLOv9](https://github.com/WongKinYiu/yolov9) and [SparK](https://github.com/DingXiaoH/RepVGG) repositories.
+Many utility codes of our project base on the codes of [YOLOv9](https://github.com/WongKinYiu/yolov9) and [SparK](https://github.com/keyu-tian/SparK) repositories.
 <!--
 ## Errata
 'Mamaba YOLO', which is a typo in the first version of the manuscript, shoule be Mamba YOLO.
