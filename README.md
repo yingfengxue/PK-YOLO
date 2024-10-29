@@ -15,7 +15,7 @@ pip install -r requirements.txt
 Please cite our paper if you use code from this repository. Here is a guide to referencing this work in various styles for formatting your references:
 
 ## License
-PK-YOLO is released under the [GNU General Public License v3.0. Please see the LICENSE file for more information.
+PK-YOLO is released under the GNU General Public License v3.0. Please see the [LICENSE](https://github.com/mkang315/PK-YOLO/blob/main/LICENSE) file for more information.
 
 ## Copyright Notice
 Many utility codes of our project base on the codes of [YOLOv9](https://github.com/WongKinYiu/yolov9) and [SparK](https://github.com/keyu-tian/SparK) repositories.
