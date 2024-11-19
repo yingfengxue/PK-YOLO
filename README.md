@@ -54,7 +54,7 @@ Kang, M., Ting, F.F., Phan, R.C.-W., Ting, C.-M., 2025. PK-YOLO: Pretrained know
 ```
 @inproceedings{Kang25Pkyolo,
   author = "Kang, Ming and Ting, Fung Fung and Phan, Rapha{\"e}l C.-W. and Ting, Chee-Ming",
-  title = "PK-YOLO: pretrained knowledge guided YOLO for brain tumor detection in multiplane MRI slices",
+  title = "{PK-YOLO}: pretrained knowledge guided {YOLO} for brain tumor detection in multiplane {MRI} slices",
   editor = "",
   booktitle = "2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)",
   series = "",
