@@ -36,8 +36,9 @@ Kang, M., Ting, F.F., Phan, R.C.-W., Ting, C.-M., 2025. PK-YOLO: Pretrained know
 <sup>**NOTE:** Day(s) Month Year, City, Abbrev. State, Country of Conference, Publiser, and Place of Publication are optional.</sup>
 
 - APA7 (author–date) Style</br>
-Kang, M., Ting, F.F., Phan, R.C.-W., Ting, C.-M. (2025). PK-YOLO: Pretrained knowledge guided YOLO for brain tumor detection in multiplane MRI slice. In *Proceedings of the 2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)* (in press). IEEE. https://doi.org/10.1109/WACV56688.2025.00000</br>
-</br>
+Kang, M., Ting, F.F., Phan, R.C.-W., & Ting, C.-M. (2025). PK-YOLO: Pretrained knowledge guided YOLO for brain tumor detection in multiplane MRI slice. In *Proceedings of the 2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)* (in press). IEEE. https://doi.org/10.1109/WACV56688.2025.00000</br>
+
+
 > BibTeX Format</br>
 ```
 \begin{thebibliography}{1}
