@@ -17,8 +17,8 @@ pip install -r requirements.txt
 Please cite our paper if you use code from this repository. Here is a guide to referencing this work in various styles for formatting your references:
 > Plain Text
 - IEEE Full Name Reference Style </br>
-Ming Kang, Fung Fung Ting, Rapha{\"e}l C.-W. Phan, and Chee-Ming Ting. Pk-yolo: Pretrained knowledge guided yolo for brain tumor detection in multiplane mri slices. In *WACV*, 2025, in press.</br>
-<sup>**NOTE:** This is a modification to the normal IEEE Reference Style used by some IEEE/CVF conferences, including CVPR, ICCV, and WACV, to render first names in the bibliography as "Firstname Lastname" rather than "F. Lastname".
+Ming Kang, Fung Fung Ting, Raphaël C.-W. Phan, and Chee-Ming Ting. Pk-yolo: Pretrained knowledge guided yolo for brain tumor detection in multiplane mri slices. In *WACV*, 2025, in press.</br>
+<sup>**NOTE:** This is a modification to the normal IEEE Reference Style used by some IEEE/CVF conferences, including CVPR, ICCV, and WACV, to render first names in the bibliography as "Firstname Lastname" rather than "F. Lastname", which is simmilar to ICLR's reference style.
 
 - IEEE Reference Style</br>
 M. Kang, F. F. Ting, R. C.-W. Phan, and C.-M. Ting, "Pk-yolo: Pretrained knowledge guided yolo for brain tumor detection in multiplane mri slices," in *Proc. Winter Conf. Appl. Comput. Vis. (WACV)*, Tucson, AZ, USA, Feb. 28–Mar. 4, 2025, in press.</br>
