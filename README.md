@@ -18,7 +18,7 @@ Please cite our paper if you use code from this repository. Here is a guide to r
 > Plain Text
 - IEEE Full Name Reference Style </br>
 Ming Kang, Fung Fung Ting, Raphaël C.-W. Phan, and Chee-Ming Ting. Pk-yolo: Pretrained knowledge guided yolo for brain tumor detection in multiplane mri slices. In *WACV*, 2025, in press.</br>
-<sup>**NOTE:** This is a modification to the normal IEEE Reference Style used by most IEEE/CVF conferences, including CVPR, ICCV, and WACV, to render first names in the bibliography as "Firstname Lastname" rather than "F. Lastname" or "Lastname, F.", which the reference styles of NeurIPS and ICLR are similar to.
+<sup>**NOTE:** This is a modification to the standard IEEE Reference Style and used by most IEEE/CVF conferences, including CVPR, ICCV, and WACV, to render first names in the bibliography as "Firstname Lastname" rather than "F. Lastname" or "Lastname, F.", which the reference styles of NeurIPS and ICLR are similar to.
 
 - IEEE Reference Style</br>
 M. Kang, F. F. Ting, R. C.-W. Phan, and C.-M. Ting, "Pk-yolo: Pretrained knowledge guided yolo for brain tumor detection in multiplane mri slices," in *Proc. Winter Conf. Appl. Comput. Vis. (WACV)*, Tucson, AZ, USA, Feb. 28–Mar. 4, 2025, in press.</br>
