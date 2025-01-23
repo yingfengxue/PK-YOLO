@@ -16,7 +16,7 @@ pip install -r requirements.txt
 ## Referencing Guide
 Please cite our paper if you use code from this repository. Here is a guide to referencing this work in various styles for formatting your references:
 > Plain Text
-- IEEE Full Name Reference Style </br>
+- IEEE Full Name Reference Style</br>
 Ming Kang, Fung Fung Ting, Raphaël C.-W. Phan, and Chee-Ming Ting. Pk-yolo: Pretrained knowledge guided yolo for brain tumor detection in multiplane mri slices. In *WACV*, in press, 2025.</br>
 <sup>**NOTE:** This is a modification to the standard IEEE Reference Style and used by most IEEE/CVF conferences, including CVPR, ICCV, and WACV, to render first names in the bibliography as "Firstname Lastname" rather than "F. Lastname" or "Lastname, F.", which the reference styles of NeurIPS and ICLR are similar to.
 
