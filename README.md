@@ -56,7 +56,7 @@ Kang, M., Ting, F.F., Phan, R.C.-W., & Ting, C.-M. (2025). PK-YOLO: Pretrained k
   booktitle = "Proc. Winter Conf. Appl. Comput. Vis. (WACV)",
   address = "Tucson, AZ, USA, Feb. 28--Mar. 4",
   pages = "in press",
-  year = "2025",
+  year = "2025"
 }
 ```
 ```
