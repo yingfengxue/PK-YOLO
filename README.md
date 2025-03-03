@@ -17,30 +17,30 @@ pip install -r requirements.txt
 Please cite our paper if you use code from this repository. Here is a guide to referencing this work in various styles for formatting your references:
 > Plain Text
 - IEEE Full Name Reference Style</br>
-Ming Kang, Fung Fung Ting, Raphaël C.-W. Phan, and Chee-Ming Ting. Pk-yolo: Pretrained knowledge guided yolo for brain tumor detection in multiplane mri slices. In *WACV*, pages 3732--3741, 2025.</br>
+Ming Kang, Fung Fung Ting, Raphaël C.-W. Phan, and Chee-Ming Ting. Pk-yolo: Pretrained knowledge guided yolo for brain tumor detection in multiplane mri slices. In *WACV*, pages 3732–3741, 2025.</br>
 <sup>**NOTE:** This is a modification to the standard IEEE Reference Style and used by most IEEE/CVF conferences, including *CVPR*, *ICCV*, and *WACV*, to render first names in the bibliography as "Firstname Lastname" rather than "F. Lastname" or "Lastname, F.", which the reference styles of *NeurIPS*, *ICLR*, and *IJCAI* are similar to.</sup>
 
 - IEEE Reference Style</br>
-M. Kang, F. F. Ting, R. C.-W. Phan, and C.-M. Ting, "Pk-yolo: Pretrained knowledge guided yolo for brain tumor detection in multiplane mri slices," in *Proc. Winter Conf. Appl. Comput. Vis. (WACV)*, Tucson, AZ, USA, Feb. 28–Mar. 4, 2025, pp. 3732--3741.</br>
+M. Kang, F. F. Ting, R. C.-W. Phan, and C.-M. Ting, "Pk-yolo: Pretrained knowledge guided yolo for brain tumor detection in multiplane mri slices," in *Proc. Winter Conf. Appl. Comput. Vis. (WACV)*, Tucson, AZ, USA, Feb. 28–Mar. 4, 2025, pp. 3732–3741.</br>
 <sup>**NOTE:** City of Conf., Abbrev. State, Country, Month & Day(s) are optional.</sup>
 
 - Nature Reference Style</br>
-Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. C.-W. PK-YOLO: pretrained knowledge guided YOLO for brain tumor detection in multiplane MRI slices. In *2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)* 3732--3741 (IEEE, 2025).</br>
+Kang, M., Ting, C.-M., Ting, F. F. & Phan, R. C.-W. PK-YOLO: pretrained knowledge guided YOLO for brain tumor detection in multiplane MRI slices. In *2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)* 3732–3741 (IEEE, 2025).</br>
 
 - Springer Reference Style</br>
-Kang, M., Ting, F.F., Phan, R.C.-W., Ting, C.-M.: PK-YOLO: pretrained knowledge guided YOLO for brain tumor detection in multiplane MRI slices. In: 2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), pp. 3732--3741. IEEE, Piscataway (2025)</br>
+Kang, M., Ting, F.F., Phan, R.C.-W., Ting, C.-M.: PK-YOLO: pretrained knowledge guided YOLO for brain tumor detection in multiplane MRI slices. In: 2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), pp. 3732–3741. IEEE, Piscataway (2025)</br>
 <sup>**NOTE:** MICCAI conference proceedings are part of the book series LNCS in which Springer's format for bibliographical references is strictly enforced. This is important, for instance, when citing previous MICCAI proceedings. LNCS stands for Lecture Notes in Computer Science.</sup>
 
 - Elsevier Numbered Style</br>
-M. Kang, F.F. Ting, R.C.-W. Phan, C.-M. Ting, PK-YOLO: Pretrained knowledge guided YOLO for brain tumor detection in multiplane MRI slices, in: Proceedings of the 2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 8 Februray–4 March 2025, Tucson, AZ, USA. IEEE, Piscataway, New York, USA, pp. 3732--3741.</br>
+M. Kang, F.F. Ting, R.C.-W. Phan, C.-M. Ting, PK-YOLO: Pretrained knowledge guided YOLO for brain tumor detection in multiplane MRI slices, in: Proceedings of the 2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 8 Februray–4 March 2025, Tucson, AZ, USA. IEEE, Piscataway, New York, USA, pp. 3732–3741.</br>
 <sup>**NOTE:** Day(s) Month Year, City, Abbrev. State, Country of Conference, Publiser, and Place of Publication are optional.</sup>
 
 - Elsevier Name–Date (Harvard) Style</br>
-Kang, M., Ting, F.F., Phan, R.C.-W., Ting, C.-M., 2025. PK-YOLO: Pretrained knowledge guided YOLO for brain tumor detection in multiplane MRI slice. In: Proceedings of the 2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 28 Februray–4 March 2025, Tucson, AZ, USA. IEEE, Piscataway, New York, USA, pp. 3732--3741.</br>
+Kang, M., Ting, F.F., Phan, R.C.-W., Ting, C.-M., 2025. PK-YOLO: Pretrained knowledge guided YOLO for brain tumor detection in multiplane MRI slice. In: Proceedings of the 2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV), 28 Februray–4 March 2025, Tucson, AZ, USA. IEEE, Piscataway, New York, USA, pp. 3732–3741.</br>
 <sup>**NOTE:** Day(s) Month Year, City, Abbrev. State, Country of Conference, Publiser, and Place of Publication are optional.</sup>
 
 - APA7 (Author–Date) Style</br>
-Kang, M., Ting, F.F., Phan, R.C.-W., & Ting, C.-M. (2025). PK-YOLO: Pretrained knowledge guided YOLO for brain tumor detection in multiplane MRI slice. In *Proceedings of the 2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)* (pp. 3732--3741). IEEE. https://doi.org/10.1109/WACV56688.2025.00000</br>
+Kang, M., Ting, F.F., Phan, R.C.-W., & Ting, C.-M. (2025). PK-YOLO: Pretrained knowledge guided YOLO for brain tumor detection in multiplane MRI slice. In *Proceedings of the 2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)* (pp. 3732–3741). IEEE. https://doi.org/10.1109/WACV56688.2025.00000</br>
 
 
 > BibTeX Format</br>
