@@ -54,6 +54,7 @@ Kang, M., Ting, F.F., Phan, R.C.-W., & Ting, C.-M. (2025). PK-YOLO: Pretrained k
   author = "Ming Kang and Fung Fung Ting and Rapha{\"e}l C.-W. Phan and Chee-Ming Ting",
   title = "Pk-yolo: Pretrained knowledge guided yolo for brain tumor detection in multiplane mri slices",
   booktitle = "Proc. Winter Conf. Appl. Comput. Vis. (WACV)",
+  % booktitle = wACV %% IEEE Full Name Reference Style
   address = "Tucson, AZ, USA, Feb. 28--Mar. 4",
   pages = "3732--3741",
   year = "2025"
