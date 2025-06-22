@@ -9,6 +9,9 @@ from datetime import datetime
 from pathlib import Path
 
 import numpy as np
+import torch.serialization
+
+import numpy as np
 import torch
 import torch.distributed as dist
 import torch.nn as nn
@@ -107,6 +110,7 @@ def train(hyp, opt, device, callbacks):  # hyp is path/to/hyp.yaml or hyp dictio
     if pretrained:
         with torch_distributed_zero_first(LOCAL_RANK):
             weights = attempt_download(weights)  # download if not found locally
+        torch.serialization.add_safe_globals([np.core.multiarray._reconstruct])
         ckpt = torch.load(weights, map_location='cpu')  # load checkpoint to CPU to avoid CUDA memory leak
         model = Model(cfg or ckpt['model'].yaml, ch=3, nc=nc, anchors=hyp.get('anchors')).to(device)  # create
         exclude = ['anchor'] if (cfg or hyp.get('anchors')) and not resume else []  # exclude keys
