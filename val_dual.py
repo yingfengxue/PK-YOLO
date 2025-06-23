@@ -198,10 +198,10 @@ def run(
         #    #train_out = train_out[1]
         #    #loss += compute_loss(train_out, targets)[1]  # box, obj, cls
         if compute_loss:
-            preds = preds[1]
+            preds, train_out = preds
+            #preds = preds[1]
             _, loss_items = compute_loss(preds, targets)
             loss += loss_items  # box, cls, dfl
-            #val_loss_list.append(loss_items.cpu().tolist())
         else:
             preds = preds[0][1]
 
