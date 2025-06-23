@@ -177,6 +177,7 @@ def run(
     jdict, stats, ap, ap_class = [], [], [], []
     callbacks.run('on_val_start')
     pbar = tqdm(dataloader, desc=s, bar_format=TQDM_BAR_FORMAT)  # progress bar
+    val_loss_list = []
     for batch_i, (im, targets, paths, shapes) in enumerate(pbar):
         callbacks.run('on_val_batch_start')
         with dt[0]:
@@ -200,6 +201,7 @@ def run(
             preds = preds[1]
             _, loss_items = compute_loss(preds, targets)
             loss += loss_items  # box, cls, dfl
+            val_loss_list.append(loss_items.cpu().tolist())
         else:
             preds = preds[0][1]
 
@@ -264,6 +266,23 @@ def run(
             plot_images(im, output_to_target(preds), paths, save_dir / f'val_batch{batch_i}_pred.jpg', names)  # pred
 
         callbacks.run('on_val_batch_end', batch_i, im, targets, paths, shapes, preds)
+
+    # Plot validation loss
+    if len(val_loss_list):
+        val_loss_array = np.array(val_loss_list)
+        plt.figure(figsize=(10, 5))
+        plt.plot(val_loss_array[:, 0], label='Box Loss')
+        plt.plot(val_loss_array[:, 1], label='Cls Loss')
+        plt.plot(val_loss_array[:, 2], label='DFL Loss')
+        plt.xlabel('Batch')
+        plt.ylabel('Loss')
+        plt.title('Validation Loss per Batch')
+        plt.legend()
+        plt.grid(True)
+        plt.tight_layout()
+        plt.savefig(save_dir / 'val_loss_curve.png')
+        plt.close()
+        LOGGER.info(f"Validation loss curve saved to {save_dir / 'val_loss_curve.png'}")
 
     # Compute metrics
     stats = [torch.cat(x, 0).cpu().numpy() for x in zip(*stats)]  # to numpy
