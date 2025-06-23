@@ -192,10 +192,14 @@ def run(
             preds, train_out = model(im) if compute_loss else (model(im, augment=augment), None)
 
         # Loss
+        #if compute_loss:
+        #    preds = preds[1]
+        #    #train_out = train_out[1]
+        #    #loss += compute_loss(train_out, targets)[1]  # box, obj, cls
         if compute_loss:
             preds = preds[1]
-            #train_out = train_out[1]
-            #loss += compute_loss(train_out, targets)[1]  # box, obj, cls
+            _, loss_items = compute_loss(preds, targets)
+            loss += loss_items  # box, cls, dfl
         else:
             preds = preds[0][1]
 
